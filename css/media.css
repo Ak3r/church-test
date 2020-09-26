@@ -1,0 +1,79 @@
+@media (max-width: 1439px) {
+    .post {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .posts-row,
+    .banners-row {
+        flex-direction: column;
+    }
+
+    .facebook-banner {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .banner {
+        margin: 0 auto;
+        height: 200px;
+    }
+
+    .posts {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .container {
+        max-width: 700px;
+    }
+
+    .large-post {
+        margin: 0 auto;
+    }
+
+    .welcome-block {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome-block {
+        max-width: 500px;
+    }
+
+    .container {
+        max-width: 400px;
+    }
+
+    .building-progress, .building-more {
+        padding: 20px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .first-column, 
+    .second-column,
+    .third-column {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .first-column {
+        width: 100%;
+    }
+
+    .copywright {
+        text-align: center;
+    }
+}
