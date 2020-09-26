@@ -1,3 +1,3 @@
 # church-test
-#demo
+## demo
 [link to demo!](http://itchy-icicle.surge.sh/)
